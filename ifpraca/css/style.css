@@ -1,0 +1,238 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.tabela-holder {
+    height: 100vh;
+    /* background-color: aqua; */
+
+}
+
+.title-holder,
+.controles-holder {
+    height: 15vh;
+    width: 100%;
+}
+
+.tabela-holder-holder {
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tabela-row {
+    width: 60%;
+    height: 20%;
+    /* background-color: chartreuse; */
+    display: flex;
+}
+
+.tabela-col {
+    width: 20%;
+    height: 100%;
+    border: black 2px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.galinha {
+    width: 100px;
+    height: 100px;
+}
+
+.controles-holder {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.seta {
+    width: 35px;
+    height: 35px;
+}
+
+.btn {
+    width: 75px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#noventaEsq {
+    /* background-color: aqua; */
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.seta-holder {
+    width: 35px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.orientation-holder {
+    width: 115px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    margin: 0%;
+}
+
+.super-container {
+    position: relative;
+}
+
+.game {
+    position: absolute;
+    z-index: 1;
+}
+
+.pop-up {
+    position: absolute;
+    z-index: 2;
+    /* background-color: blue; */
+    background-color: rgba(0, 0, 0, 0.67);
+    display: none;
+}
+
+.super {
+    display: flex;
+    justify-content: center;
+}
+
+.super-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.popup-holder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-holder {
+    width: 650px;
+    height: 80vh;
+    background-color: rgb(196, 221, 171);
+    border-radius: 25px;
+}
+
+.titulo {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.conteudo {
+    width: 100%;
+    height: 65%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.subs {
+    width: 80%;
+    height: 80%;
+}
+
+.creditos {
+    height: 6%;
+    width: 100%;
+    /* background-color: brown; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.imagem-botao {
+    width: 33%;
+    height: 100%;
+    /* background-color: rgb(68, 0, 255); */
+    display: flex;
+
+    align-items: center;
+    flex-direction: column;
+}
+
+.mais-texto {
+    width: 66%;
+    height: 100%;
+    /* background-color: rgb(68, 0, 255); */
+}
+
+.logo-ifc {
+    width: 180px;
+    height: 180px;
+    /* background-color: aqua; */
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+}
+
+.btn-rock {
+    width: 100%;
+    /* background-color: chocolate; */
+}
+
+.imagem-botao * {
+    margin-bottom: 10px;
+}
+
+.edaabp {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.git {
+    width: 25px;
+    height: 25px;
+}
+
+.no-ifc {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15%;
+}
+
+.o-que {
+    width: 100%;
+    height: 80%;
+    /* background-color: cyan; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.a {
+    height: 10%;
+}
